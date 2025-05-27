@@ -34,7 +34,6 @@ export default function Index() {
             <View className="flex flex-row w-full items-center">
                 <Text className="text-2xl font-extrabold">My Todo List</Text>
                 <Text className="text-lg font-medium ml-5">{todoList.length}</Text>
-                <MaterialIcons name="delete" size={24} color="black" className="ml-auto" />
             </View>
 
             <FlatList
